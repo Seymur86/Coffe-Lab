@@ -1,24 +1,24 @@
 @import url(./reset.css);
 
-body{
-    background-image: url('./body.jpg');
+body {
+    background-image: url('../img/body.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.container1{
+.container1 {
     height: 100%;
     width: 100%;
 }
 
-.head1{
+.head1 {
     display: flex;
     flex-direction: column;
 }
 
-.head1 .upper-text1{
+.head1 .upper-text1 {
     display: block;
     font-size: 2rem;
     font-weight: 800;
@@ -29,7 +29,7 @@ body{
     margin-top: 80px;
 }
 
-.head1 .lower-text1{
+.head1 .lower-text1 {
     font-size: 5rem;
     font-weight: 100;
     line-height: 4rem;
@@ -39,7 +39,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.nav1{
+.nav1 {
     background-color: #462917;
     opacity: 0.9;
     margin-top: 80px;
@@ -49,7 +49,7 @@ body{
     justify-content: center;
 }
 
-.nav1 ul{
+.nav1 ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -57,14 +57,14 @@ body{
     gap: 80px;
 }
 
-.nav1 li{
+.nav1 li {
     color: rgba(255, 255, 255, 0.55);
     font-size: 17px;
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: bolder;
 }
 
-.nav1 li:hover{
+.nav1 li:hover {
     width: 100px;
     height: 50px;
     background-color: #ffc107;
@@ -73,7 +73,7 @@ body{
     justify-content: center;
 }
 
-.center-container{
+.center-container {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -81,8 +81,8 @@ body{
     padding-top: 80px;
 }
 
-.img1{
-    background-image: url('./about.jpg');
+.img1 {
+    background-image: url('../img/about.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ body{
     border-radius: 10px;
 }
 
-.center-box{
+.center-box {
     display: flex;
     flex-direction: column;
     padding-left: 40px;
@@ -103,14 +103,14 @@ body{
     top: 850px;
 }
 
-.center-box h2{
+.center-box h2 {
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: bolder;
     padding-top: 50px;
     padding-left: 10px;
 }
 
-.center-box span{
+.center-box span {
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     padding-top: 10px;
     text-transform: uppercase;
@@ -120,7 +120,7 @@ body{
     opacity: 0.4;
 }
 
-.center-box .first{
+.center-box .first {
     font-size: 19px;
     line-height: 1.75;
     margin-top: 10px;
@@ -128,7 +128,7 @@ body{
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.center-box .second{
+.center-box .second {
     font-size: 19px;
     line-height: 1.75;
     margin-top: 20px;
@@ -137,7 +137,7 @@ body{
 }
 
 
-footer{
+footer {
     width: 100%;
     background-color: #462917;
     margin-top: 80px;
@@ -151,6 +151,6 @@ footer{
     margin-top: 300px;
 }
 
-footer span a:hover{
+footer span a:hover {
     color: yellow;
 }
